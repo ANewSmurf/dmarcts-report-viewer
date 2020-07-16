@@ -198,7 +198,7 @@ function tmpl_reportData($reportnumber, $allowed_reports, $host_lookup = 1, $sor
 	}
 
   // $reportdata[] = "<div class='print'><div class='print_img'><a href=\"javascript: document.getElementById(&quot;CONTENT&quot;).contentWindow.print();\"><img class='print_img' src=\"./images/print.png\"></a></div></div>";
-  $reportdata[] = "<div class='print'><div class='print_img'><a href=\"javascript: printData();\"><img class='print_img' src=\"/images/print.png\"></a></div></div>";
+  $reportdata[] = "<div class='print'><div class='print_img'><a href=\"javascript: printData();\"><img class='print_img' src=\"./images/print.png\"></a></div></div>";
 	$reportdata[] = "<table class='reportdata'>";
 	$reportdata[] = "  <thead>";
 	$reportdata[] = "    <tr>";
